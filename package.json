@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "name": "react-docker",
+  "version": "1.0.0",
+  "description": "Build a react application, confirm it is running locally, build a Docker image, containerize it and push the container to Dockerhub repository.",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osagiefe/react-docker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osagiefe/react-docker/issues"
+  },
+  "homepage": "https://github.com/osagiefe/react-docker#readme"
+}
