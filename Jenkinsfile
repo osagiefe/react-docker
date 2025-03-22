@@ -30,7 +30,7 @@ pipeline {
         stage('Push Docker Image to DockerHub') {
             steps {
                 script {
-                 withCredentials([string(credentialsId: 'FelixID', variable: 'osagiefe')]) {
+                 withCredentials([string(credentialsId: 'FelixID', variable: 'FelixID')]) {
                     sh 'docker login -u osagiefe -p ${FelixID}'
             }
             sh 'docker push osagiefe/node-app-1.0'
